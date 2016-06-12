@@ -1,0 +1,5 @@
+softether:
+  image: frosquin/softether
+  net: host
+  volumes:
+    - /c/msys64/home/nabuchi/docker/softether/vpn_server.config:/usr/local/vpnserver/vpn_server.config
